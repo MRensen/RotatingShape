@@ -7,28 +7,34 @@ import java.util.Date;
 import java.util.TimerTask;
 
 public abstract class RotatingObject extends JPanel {
-    double[][] nodes = {{-1, -1, -1}, {-1, -1, 1}, {-1, 1, -1}, {-1, 1, 1},
-            {1, -1, -1}, {1, -1, 1}, {1, 1, -1}, {1, 1, 1}};
+    // colors for testing: black, bordeau, darkgreen, darkblue, yellowgreen, purple, aqua, grey
+    int[][] colors = {{0,0,0}, {100,0,0}, {0,100,0}, {0,0,100}, {100,100,0},{100,0,100},{0,100,100},{100,100,100}};
+    double[][] nodes;
 
-    int[][] edges = {{0, 1}, {1, 3}, {3, 2}, {2, 0}, {4, 5}, {5, 7}, {7, 6},
-            {6, 4}, {0, 4}, {1, 5}, {2, 6}, {3, 7}};
+    int[][] edges;
 
     public abstract RotatingObject init();
 
     public RotatingObject() {
+        init();
         setPreferredSize(new Dimension(640, 640));
         setBackground(Color.white);
 
         scale(100);
-        rotateObject(PI / 90, atan(sqrt(2)));
+        if(nodes != null && edges != null) {
+            rotateObject(PI / 90, atan(sqrt(2)));
 
-        new Timer(17, (ActionEvent e) -> {
-            rotateObject(Math.PI / 180, 0);
-            repaint();
-        }).start();
+            new Timer(17, (ActionEvent e) -> {
+                rotateObject(Math.PI / 180, 0);
+                repaint();
+            }).start();
+        } else {
+            System.out.println("nodes and edges not initiated");
+        }
     }
 
-    final void scale(double s) {
+
+    private void scale(double s) {
         for (double[] node : nodes) {
             node[0] *= s;
             node[1] *= s;
@@ -36,7 +42,7 @@ public abstract class RotatingObject extends JPanel {
         }
     }
 
-    final void rotateObject(double angleX, double angleY) {
+    private void rotateObject(double angleX, double angleY) {
         double sinX = sin(angleX);
         double cosX = cos(angleX);
 
@@ -59,6 +65,7 @@ public abstract class RotatingObject extends JPanel {
     }
 
     void drawObject(Graphics2D g) {
+        int color = 0;
         g.translate(getWidth() / 2, getHeight() / 2);
 
         for (int[] edge : edges) {
@@ -68,8 +75,12 @@ public abstract class RotatingObject extends JPanel {
                     (int) round(xy2[0]), (int) round(xy2[1]));
         }
 
-        for (double[] node : nodes)
+        for (double[] node : nodes) {
+            //fill colors for testing
+            g.setColor(new Color(colors[color][0], colors[color][1], colors[color][2]));
             g.fillOval((int) round(node[0]) - 4, (int) round(node[1]) - 4, 8, 8);
+            color++;
+        }
     }
 
     @Override

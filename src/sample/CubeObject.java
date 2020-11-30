@@ -2,6 +2,10 @@ package sample;
 
 public class CubeObject extends RotatingObject {
 
+    public CubeObject(){
+        super();
+    }
+
     @Override
     public RotatingObject init() {
         this.nodes = new double[][] {{-1, -1, -1}, {-1, -1, 1}, {-1, 1, -1}, {-1, 1, 1},
