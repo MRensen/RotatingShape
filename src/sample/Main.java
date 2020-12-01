@@ -56,7 +56,7 @@ public class Main{
         ActionListener sphereAL = new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                //SetupRotatingObject(new SphereObject());
+                swapObject(new SphereObject());
             }
         };
         // bind actionlisteners to objects
