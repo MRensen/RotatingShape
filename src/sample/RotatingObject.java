@@ -42,7 +42,7 @@ public abstract class RotatingObject extends JPanel {
         }
     }
 
-    private void rotateObject(double angleX, double angleY) {
+     void rotateObject(double angleX, double angleY) {
         double sinX = sin(angleX);
         double cosX = cos(angleX);
 
@@ -65,6 +65,7 @@ public abstract class RotatingObject extends JPanel {
     }
 
     void drawObject(Graphics2D g) {
+
         int color = 0;
         g.translate(getWidth() / 2, getHeight() / 2);
 

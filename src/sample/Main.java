@@ -12,9 +12,6 @@ public class Main{
     static JButton TriangleButton;
     static JButton SphereButton;
     static RotatingObject Shape;
-    static RotatingObject Cube;
-    static RotatingObject Triangle;
-    static RotatingObject Sphere;
     static JFrame f;
 
     static ButtonGroup buttons = new ButtonGroup();
@@ -94,7 +91,7 @@ public class Main{
     public static void main(String[] args) {
 
         SwingUtilities.invokeLater(() -> {
-            SetupRotatingObject(new CubeObject());
+            SetupRotatingObject(new SphereObject());
         });
     }
 }
