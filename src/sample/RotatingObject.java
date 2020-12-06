@@ -13,7 +13,7 @@ public abstract class RotatingObject extends JPanel {
 
     int[][] edges;
 
-    public abstract RotatingObject init();
+    public abstract void init();
 
     public RotatingObject() {
         init();
@@ -80,6 +80,7 @@ public abstract class RotatingObject extends JPanel {
             //fill colors for testing
             g.setColor(new Color(colors[color][0], colors[color][1], colors[color][2]));
             g.fillOval((int) round(node[0]) - 4, (int) round(node[1]) - 4, 8, 8);
+            System.out.println(((int) round(node[0]) - 4) +" "+ ((int) round(node[1]) - 4) +" "+ 8 +" "+ 8 );
             color++;
         }
     }

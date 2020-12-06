@@ -56,25 +56,27 @@
     <session id="1275697710">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="38" />
+          <entry key="JAVA" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6821" />
+          <entry key="JAVA" value="8157" />
         </counts>
       </usages-collector>
     </session>
@@ -87,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="1230">
               <caret line="93" selection-start-line="93" selection-end-line="93" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -99,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/TriangleObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="83" />
+            <state relative-caret-position="195">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -108,27 +110,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/SphereObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+            <state relative-caret-position="615">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Programs/jdk1.8.0_181/src.zip!/java/lang/Math.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="1137" column="22" selection-start-line="1137" selection-start-column="22" selection-end-line="1137" selection-end-column="22" />
-              <folding>
-                <element signature="e#8525#8526#0" expanded="true" />
-                <element signature="e#8607#8608#0" expanded="true" />
-                <element signature="e#9571#9572#0" expanded="true" />
-                <element signature="e#9613#9614#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/RotatingObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="94" column="5" lean-forward="true" selection-start-line="86" selection-start-column="3" selection-end-line="94" selection-end-column="5" />
+            <state relative-caret-position="315">
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,19 +132,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Programs/jdk1.8.0_181/src.zip!/java/awt/Graphics2D.java">
+        <entry file="jar://$USER_HOME$/Programs/jdk1.8.0_181/src.zip!/javax/swing/JComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14610">
-              <caret line="1008" column="25" selection-start-line="1008" selection-start-column="25" selection-end-line="1008" selection-end-column="25" />
+            <state relative-caret-position="10575">
+              <caret line="775" column="19" selection-start-line="775" selection-start-column="19" selection-end-line="775" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#62338#62339#0" expanded="true" />
+                <element signature="e#62391#62392#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Programs/jdk1.8.0_181/src.zip!/java/awt/geom/Ellipse2D.java">
+        <entry file="jar://$USER_HOME$/Programs/jdk1.8.0_181/src.zip!/java/awt/Component.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+            <state relative-caret-position="45840">
+              <caret line="3310" column="13" selection-start-line="3310" selection-start-column="13" selection-end-line="3310" selection-end-column="13" />
+              <folding>
+                <element signature="e#114480#114481#0" expanded="true" />
+                <element signature="e#114527#114528#0" expanded="true" />
+                <element signature="e#249007#249008#0" expanded="true" />
+                <element signature="e#249035#249036#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -189,8 +185,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/CubeObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="56" selection-start-line="10" selection-start-column="8" selection-end-line="14" selection-end-column="56" />
+            <state relative-caret-position="195">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#90#91#0" expanded="true" />
                 <element signature="e#113#114#0" expanded="true" />
@@ -223,9 +219,9 @@
         <option value="$PROJECT_DIR$/src/sample/PathTransitionExample2.java" />
         <option value="$PROJECT_DIR$/src/sample/vertex.java" />
         <option value="$PROJECT_DIR$/src/sample/RotatingCube.java" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/CubeObject.java" />
         <option value="$PROJECT_DIR$/src/sample/TriangleObject.java" />
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/RotatingObject.java" />
         <option value="$PROJECT_DIR$/src/sample/SphereObject.java" />
       </list>
@@ -245,6 +241,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,7 +264,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -441,7 +437,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="180" width="1440" height="876" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.24911785" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -449,7 +444,7 @@
       <window_info id="Designer" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.328877" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.328877" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.328877" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973262" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -499,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Programs/jdk1.8.0_181/src.zip!/javax/swing/Timer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="203" column="11" selection-start-line="203" selection-start-column="11" selection-end-line="203" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Programs/jdk1.8.0_181/javafx-src.zip!/javafx/scene/shape/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -517,22 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18705">
           <caret line="1293" column="23" selection-start-line="1293" selection-start-column="23" selection-end-line="1293" selection-end-column="23" />
-          <folding>
-            <element signature="e#52022#52023#0" expanded="true" />
-            <element signature="e#52067#52068#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Programs/jdk1.8.0_181/src.zip!/javax/swing/JComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#62338#62339#0" expanded="true" />
-            <element signature="e#62391#62392#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -540,10 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11100">
           <caret line="800" column="16" selection-start-line="800" selection-start-column="16" selection-end-line="800" selection-end-column="16" />
-          <folding>
-            <element signature="e#40240#40241#0" expanded="true" />
-            <element signature="e#40267#40268#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,10 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13485">
           <caret line="973" column="16" selection-start-line="973" selection-start-column="16" selection-end-line="973" selection-end-column="16" />
-          <folding>
-            <element signature="e#37652#37653#0" expanded="true" />
-            <element signature="e#37698#37699#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -583,10 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="148" column="11" selection-start-line="148" selection-start-column="11" selection-end-line="148" selection-end-column="11" />
-          <folding>
-            <element signature="e#4362#4363#0" expanded="true" />
-            <element signature="e#4394#4395#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -594,10 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="115" column="11" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="11" />
-          <folding>
-            <element signature="e#3040#3041#0" expanded="true" />
-            <element signature="e#3066#3067#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -605,10 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="1925" column="27" selection-start-line="1925" selection-start-column="27" selection-end-line="1925" selection-end-column="27" />
-          <folding>
-            <element signature="e#68197#68198#0" expanded="true" />
-            <element signature="e#68254#68255#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -628,23 +580,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Programs/jdk1.8.0_181/src.zip!/java/awt/Component.java">
+    <entry file="jar://$USER_HOME$/Programs/jdk1.8.0_181/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="3309" column="16" selection-start-line="3309" selection-start-column="16" selection-end-line="3309" selection-end-column="16" />
+        <state relative-caret-position="16185">
+          <caret line="1137" column="22" selection-start-line="1137" selection-start-column="22" selection-end-line="1137" selection-end-column="22" />
           <folding>
-            <element signature="e#114480#114481#0" expanded="true" />
-            <element signature="e#114527#114528#0" expanded="true" />
-            <element signature="e#249007#249008#0" expanded="true" />
-            <element signature="e#249035#249036#0" expanded="true" />
+            <element signature="e#8525#8526#0" expanded="true" />
+            <element signature="e#8607#8608#0" expanded="true" />
+            <element signature="e#9571#9572#0" expanded="true" />
+            <element signature="e#9613#9614#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Programs/jdk1.8.0_181/src.zip!/java/awt/Graphics2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14610">
-          <caret line="1008" column="25" selection-start-line="1008" selection-start-column="25" selection-end-line="1008" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -652,6 +597,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Programs/jdk1.8.0_181/src.zip!/java/awt/Graphics2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="406" column="22" selection-start-line="406" selection-start-column="22" selection-end-line="406" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Programs/jdk1.8.0_181/src.zip!/javax/swing/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="550" column="17" selection-start-line="550" selection-start-column="17" selection-end-line="550" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/TriangleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/RotatingObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Programs/jdk1.8.0_181/src.zip!/javax/swing/JComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10575">
+          <caret line="775" column="19" selection-start-line="775" selection-start-column="19" selection-end-line="775" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#62338#62339#0" expanded="true" />
+            <element signature="e#62391#62392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Programs/jdk1.8.0_181/src.zip!/java/awt/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45840">
+          <caret line="3310" column="13" selection-start-line="3310" selection-start-column="13" selection-end-line="3310" selection-end-column="13" />
+          <folding>
+            <element signature="e#114480#114481#0" expanded="true" />
+            <element signature="e#114527#114528#0" expanded="true" />
+            <element signature="e#249007#249008#0" expanded="true" />
+            <element signature="e#249035#249036#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -675,8 +686,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/CubeObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="56" selection-start-line="10" selection-start-column="8" selection-end-line="14" selection-end-column="56" />
+        <state relative-caret-position="195">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#90#91#0" expanded="true" />
             <element signature="e#113#114#0" expanded="true" />
@@ -684,54 +695,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Programs/jdk1.8.0_181/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="1137" column="22" selection-start-line="1137" selection-start-column="22" selection-end-line="1137" selection-end-column="22" />
-          <folding>
-            <element signature="e#8525#8526#0" expanded="true" />
-            <element signature="e#8607#8608#0" expanded="true" />
-            <element signature="e#9571#9572#0" expanded="true" />
-            <element signature="e#9613#9614#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/TriangleObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/RotatingObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="94" column="5" lean-forward="true" selection-start-line="86" selection-start-column="3" selection-end-line="94" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/SphereObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+        <state relative-caret-position="615">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
           </folding>
         </state>
       </provider>
